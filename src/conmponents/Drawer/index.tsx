@@ -52,10 +52,12 @@ export default function TemporaryDrawer() {
         <React.Fragment key={anchor}>
           {/* <Button onClick={toggleDrawer(anchor, true)}></Button> */}
           <Drawer
+          // @ts-ignore
             anchor={anchor}
             open={isOpen}
             onClose={()=>setOpen(false)}
           >
+            {/* @ts-ignore */}
             {list(anchor)}
           </Drawer>
         </React.Fragment>
