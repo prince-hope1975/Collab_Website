@@ -28,7 +28,7 @@ function App() {
             item
             sx={{ overflow: "hidden", display: "flex", position: "relative" }}
           >
-            <img src="/src/photos/Rectangle 2.png" alt="not showing" />
+            <img src="/photos/Rectangle 2.png" alt="not showing" />
             <Oval />
           </Grid>
           <Grid item sx={{ paddingTop: 6 }}>
