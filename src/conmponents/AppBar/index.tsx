@@ -16,7 +16,7 @@ export default function ButtonAppBar() {
   const {setOpen, isOpen} = useGlobalContext()
   return (
     <Box sx={{ flexGrow: 1 ,maxWidth:"100%"}}>
-      <AppBar position="static">
+      <AppBar position="absolute">
         <Toolbar>
           <Button color="inherit" style={{ display: "flex", gap: "4px" ,margin:0, padding:0}}>
             <BlockIcon /> Blockly

@@ -66,3 +66,22 @@ export const P = styled(Typography)`
   flex-grow: 0;
   margin: 12px 0px;
 `;
+
+export const H3 = styled(Typography)`
+  /* A video is worth a thousand words */
+
+  position: static;
+  width: 335px;
+  height: 17px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "monospace";
+  font-style: normal;
+  font-size: 12px;
+  line-height: 17px;
+  text-transform: uppercase;
+
+  color: rgba(255, 255, 255, 0.8);
+
+`;
