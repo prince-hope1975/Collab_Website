@@ -4,7 +4,7 @@ import AppBar from "./conmponents/AppBar/";
 import Section1 from "./Sections/Section1";
 import Section2 from "./Sections/Section2";
 import Section3 from "./Sections/Sectioin3";
-
+import Pricing from "./Sections/Pricing";
 function App() {
   return (
     <section
@@ -22,6 +22,7 @@ function App() {
       <Section1 />
       <Section2/>
       <Section3 />
+      <Pricing />
 
     </section>
   );
