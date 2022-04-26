@@ -3,6 +3,7 @@ import { CssBaseline } from "@mui/material";
 import AppBar from "./conmponents/AppBar/";
 import Section1 from "./Sections/Section1";
 import Section2 from "./Sections/Section2";
+import Section3 from "./Sections/Sectioin3";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <AppBar />
       <Section1 />
       <Section2/>
+      <Section3 />
 
     </section>
   );

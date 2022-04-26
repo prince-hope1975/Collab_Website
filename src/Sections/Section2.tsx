@@ -38,15 +38,7 @@ const Section2 = () => {
           </Grid>
           <VideoImg />
         </Grid>
-        <Grid item>
-          <H2 style={{ fontSize: "1.2rem" }}>FIRST THINGS FIRST</H2>
-          <P style={{fontSize:"11.6px"}}>
-            Recrowdly creates 2d and 3d animations with unique design and copy
-            writing. Our services cover the entire gamut needed to get your
-            business’s value proposition shared, re- shared, understood and re-
-            re- shared
-          </P>
-        </Grid>
+     
       </Grid>
     </Container>
   );

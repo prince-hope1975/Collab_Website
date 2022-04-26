@@ -361,4 +361,220 @@ export const Playbtn = () => (
   </svg>
 );
 
+export const Branch = () => (
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M14.0378 17.9687C7.33239 17.3452 2.61938 11.9913 2.61938 5.12244"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M28.9585 5.12244C28.9585 11.9801 24.001 17.3909 17.3118 18.0293"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M17.0818 17.9673H26.6041"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M5.05371 17.9673L14.0376 17.9688"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M15.8126 21.6957L19.4091 26.4923C19.4091 26.4923 17.0112 26.4975 17.0122 28.8932H14.6112C14.6122 26.4972 12.2144 26.4923 12.2144 26.4923L15.8108 21.6957H15.8126Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M5.01807 16.9143V19.1062"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M26.8989 16.9143V19.1062"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M4.03389 2.15735H1.23901V4.93016H4.03389V2.15735Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M30.3752 2.15735H27.5803V4.93016H30.3752V2.15735Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M16.9548 16.5781H14.1599V19.3509H16.9548V16.5781Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+
+export const Cube = () => (
+  <svg
+    width="25"
+    height="25"
+    viewBox="0 0 25 25"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.7966 8.44287H1.07275V24.1696H16.7966V8.44287Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M24.1157 0.998169H8.38867V16.7239H24.1157V0.998169Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M1.06104 8.49786L8.37066 1.06213"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M16.8157 8.49788L24.0632 1.18799"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M16.8157 24.1256L24.1256 16.563"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M1.12451 24.1889L8.49732 16.6273"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+
+
+export const Media = () => (
+  <svg
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M22.9407 17.4301H9.08374V25.1964H22.9407V17.4301Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M22.9407 6.26208H9.08374V14.0285H22.9407V6.26208Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M5.73369 5.30676H2.80957V8.23088H5.73369V5.30676Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M5.73369 11.1549H2.80957V14.079H5.73369V11.1549Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M5.73369 17.0029H2.80957V19.9267H5.73369V17.0029Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M5.73369 22.8496H2.80957V25.7759H5.73369V22.8496Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M29.5013 5.29248H26.5771V8.2166H29.5013V5.29248Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M29.5013 11.1404H26.5771V14.0645H29.5013V11.1404Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M29.5013 16.9883H26.5771V19.9121H29.5013V16.9883Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M29.5013 22.8352H26.5771V25.7612H29.5013V22.8352Z"
+      stroke="white"
+      stroke-miterlimit="10"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+    />
+  </svg>
+);
+
 
