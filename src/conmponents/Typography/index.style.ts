@@ -35,7 +35,7 @@ export const H2 = styled(Typography)`
   font-family: "Britanica-Bold", monospace;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
   /* identical to box height */
   text-transform: uppercase;

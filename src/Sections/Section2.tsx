@@ -24,33 +24,46 @@ const Section2 = () => {
               your audience
             </P>
           </Grid>
-          <Grid
-            item
-            sx={{
-              overflowX: "hidden",
-              display: "flex",
-              position: "relative",
-              minHeight: "10.6rem",
-              minWidth: "100%",
-            }}
-          >
-            <img src="photos/Placeholder.png" alt="unable" />
-          </Grid>
+          <VideoImg />
         </Grid>
-        <Grid item>
+        <Grid item sx={{ display: "grid", gap: "2rem" }}>
           <Grid item>
             <H2>Make a long story short</H2>
-            <P style={{ fontSize: "12px" }}>
+            <P style={{ fontSize: "11px", lineHeight: "1.2rem" }}>
               Every company has a unique story to tell. Most try explaining to
               their customers what to do - but even then it gets lost in the
               noise because there’s too much content availableand it’s all the
               same
             </P>
           </Grid>
+          <VideoImg />
+        </Grid>
+        <Grid item>
+          <H2 style={{ fontSize: "1.2rem" }}>FIRST THINGS FIRST</H2>
+          <P style={{fontSize:"11.6px"}}>
+            Recrowdly creates 2d and 3d animations with unique design and copy
+            writing. Our services cover the entire gamut needed to get your
+            business’s value proposition shared, re- shared, understood and re-
+            re- shared
+          </P>
         </Grid>
       </Grid>
     </Container>
   );
 };
 
+const VideoImg = () => (
+  <Grid
+    item
+    sx={{
+      overflowX: "hidden",
+      display: "flex",
+      position: "relative",
+      minHeight: "10.6rem",
+      minWidth: "100%",
+    }}
+  >
+    <img src="photos/Placeholder.png" alt="unable" />
+  </Grid>
+);
 export default Section2;
