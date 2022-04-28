@@ -20,7 +20,7 @@ import Input from "../conmponents/input";
 
 const Section1 = () => {
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="sm" id="Home">
       <H1 color="white">
         ANIMATED <br /> VIDEOS FOR <br /> YOUR WEBSITE
       </H1>

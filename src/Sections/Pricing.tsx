@@ -4,7 +4,7 @@ import { RightUpArr } from "../conmponents/Svgs";
 
 const Pricing = () => {
   return (
-    <Container>
+    <Container id="Pricing">
       <h2>PRICING</h2>
       <BoxCon>
         {data.map((item, index) => {
