@@ -1,78 +1,81 @@
 import { IconProps, PropTypes, SvgIconProps } from "@mui/material";
 import { SVGProps } from "react";
 
-export const BlockIcon =  ()=>{
-    return (
-      <>
-        <svg
-          width="30"
-          height="22"
-          viewBox="0 0 30 22"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect
-            y="21.0922"
-            width="21.0922"
-            height="29.2684"
-            transform="rotate(-90 0 21.0922)"
-            fill="white"
-          />
-          <circle
-            cx="23.5647"
-            cy="10.5459"
-            r="2.30958"
-            transform="rotate(-90 23.5647 10.5459)"
-            fill="#070707"
-          />
-        </svg>
-      </>
-    );
-}
+export const BlockIcon = () => {
+  return (
+    <>
+      <svg
+        width="30"
+        height="22"
+        viewBox="0 0 30 22"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          y="21.0922"
+          width="21.0922"
+          height="29.2684"
+          transform="rotate(-90 0 21.0922)"
+          fill="white"
+        />
+        <circle
+          cx="23.5647"
+          cy="10.5459"
+          r="2.30958"
+          transform="rotate(-90 23.5647 10.5459)"
+          fill="#070707"
+        />
+      </svg>
+    </>
+  );
+};
 
-export const HamburgerIcon = (props: any) =>{
-    return (
-      <>
-        <svg {...props}
-          width="20"
-          height="7"
-          viewBox="0 0 20 7"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <line y1="0.5" x2="20" y2="0.5" stroke="white" />
-          <line y1="6.5" x2="20" y2="6.5" stroke="white" />
-        </svg>
-      </>
-    );
-}
-export const Oval = () =>{
-return (
-  <svg style={{position:"absolute", top: "50%" ,left:"50%" , transform:"translate(-16px, -16px)"}}
-    width="32"
-    height="31"
-    viewBox="0 0 32 31"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <circle
-      cx="15.9998"
-      cy="15.5476"
-      r="13.6327"
-      stroke="white"
-      stroke-width="3"
-    />
-    <path
-      d="M19.3917 15.0663L13.3837 11.5161C12.8887 11.226 12.1548 11.5161 12.1548 12.2159V19.3163C12.1548 19.9649 12.8375 20.3574 13.3837 20.0331L19.3917 16.483C19.9208 16.1587 19.9208 15.3906 19.3917 15.0663Z"
-      fill="#FBFAFC"
-    />
-  </svg>
-);
-
-
-
-}
-
+export const HamburgerIcon = (props: any) => {
+  return (
+    <>
+      <svg
+        {...props}
+        width="20"
+        height="7"
+        viewBox="0 0 20 7"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <line y1="0.5" x2="20" y2="0.5" stroke="white" />
+        <line y1="6.5" x2="20" y2="6.5" stroke="white" />
+      </svg>
+    </>
+  );
+};
+export const Oval = () => {
+  return (
+    <svg
+      style={{
+        position: "absolute",
+        top: "50%",
+        left: "50%",
+        transform: "translate(-16px, -16px)",
+      }}
+      width="32"
+      height="31"
+      viewBox="0 0 32 31"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <circle
+        cx="15.9998"
+        cy="15.5476"
+        r="13.6327"
+        stroke="white"
+        stroke-width="3"
+      />
+      <path
+        d="M19.3917 15.0663L13.3837 11.5161C12.8887 11.226 12.1548 11.5161 12.1548 12.2159V19.3163C12.1548 19.9649 12.8375 20.3574 13.3837 20.0331L19.3917 16.483C19.9208 16.1587 19.9208 15.3906 19.3917 15.0663Z"
+        fill="#FBFAFC"
+      />
+    </svg>
+  );
+};
 
 export const Mail = () => {
   return (
@@ -89,9 +92,9 @@ export const Mail = () => {
       />
     </svg>
   );
-}
+};
 
-export const UpRigtArrow = ({style}:SvgIconProps) =>{
+export const UpRigtArrow = ({ style }: SvgIconProps) => {
   return (
     <div style={style}>
       <svg
@@ -108,11 +111,8 @@ export const UpRigtArrow = ({style}:SvgIconProps) =>{
       </svg>
     </div>
   );
-
-
-
-}
-export const Xclose = () =>{
+};
+export const Xclose = () => {
   return (
     <svg
       width="16"
@@ -137,10 +137,9 @@ export const Xclose = () =>{
       />
     </svg>
   );
+};
 
-}
-
-export const Google = () =>{
+export const Google = () => {
   return (
     <svg
       width="74"
@@ -181,9 +180,9 @@ export const Google = () =>{
       />
     </svg>
   );
-}
+};
 
-export const Microsoft = ()=>{
+export const Microsoft = () => {
   return (
     <svg
       width="113"
@@ -219,8 +218,8 @@ export const Microsoft = ()=>{
       />
     </svg>
   );
-}
-export const Uber = ()=>{
+};
+export const Uber = () => {
   return (
     <svg
       width="71"
@@ -251,9 +250,9 @@ export const Uber = ()=>{
       />
     </svg>
   );
-}
+};
 
-export const Airbnb = ()=>{
+export const Airbnb = () => {
   return (
     <svg
       width="77"
@@ -269,8 +268,7 @@ export const Airbnb = ()=>{
       />
     </svg>
   );
-
-}
+};
 export const Wired = () => (
   <svg
     width="121"
@@ -495,7 +493,6 @@ export const Cube = () => (
   </svg>
 );
 
-
 export const Media = () => (
   <svg
     width="32"
@@ -577,4 +574,18 @@ export const Media = () => (
   </svg>
 );
 
-
+export const RightUpArr = () => (
+  <svg
+    width="17"
+    height="17"
+    viewBox="0 0 17 17"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16.5708 1.92891C16.5708 1.37662 16.1231 0.928909 15.5708 0.928909L6.57085 0.92891C6.01856 0.928909 5.57085 1.37663 5.57085 1.92891C5.57085 2.48119 6.01856 2.92891 6.57085 2.92891L14.5708 2.92891L14.5708 10.9289C14.5708 11.4812 15.0186 11.9289 15.5708 11.9289C16.1231 11.9289 16.5708 11.4812 16.5708 10.9289L16.5708 1.92891ZM2.13582 16.7782L16.278 2.63602L14.8637 1.2218L0.721604 15.3639L2.13582 16.7782Z"
+      fill="white"
+      fill-opacity="0.8"
+    />
+  </svg>
+);
